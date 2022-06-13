@@ -1,5 +1,5 @@
 name: guild-plus
-main: cn.dawntribe.guild.GuildPlugin
+main: top.violets007.guild.GuildPlugin
 version: "1.0"
 api: [ "1.0.9" ]
 load: POSTWORLD
