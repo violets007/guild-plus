@@ -1,0 +1,16 @@
+name: guild-plus
+main: cn.dawntribe.guild.GuildPlugin
+version: "1.0"
+api: [ "1.0.9" ]
+load: POSTWORLD
+author: "violets007"
+depend:
+  - EconomyAPI
+
+permissions:
+  guild.command.user:
+    description: "打开公会菜单GUI"
+    default: true
+  guild.command.admin:
+    description: "公会管理命令"
+    default: op
